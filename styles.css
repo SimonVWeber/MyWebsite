@@ -1,0 +1,110 @@
+body {
+    background-color: #060308;
+    padding-top: 64px;
+    margin: 8px 25vw; 
+    font-family: Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(255, 255, 255);
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #060308;
+  }
+  
+  li {
+    float: left;
+  }
+
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+  img {
+    margin:  0px 5vw;
+    border-radius: 16px;
+    width: 39vw;
+  }
+
+  .imgcon
+  {
+    margin:  0px 5vw;
+    border-radius: 16px;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+
+  }
+
+
+  .imgage img {
+    transition: 0.1s ease;
+    opacity:1;
+    }
+    
+    .imgage img:hover {
+    border-radius:32px;
+    opacity:0.9;
+    transition: 0.1s ease;
+    }
+    
+
+  h1 {
+    margin:  0px 5vw;
+    font-size: 2.7vw;
+    font-family: monospace, bold;
+    background: -webkit-repeating-radial-gradient(top left, circle, #ffffff, #d5ab5e 1%, #ffffff 17%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  
+
+  div {
+    display: block;
+    color: whitesmoke;
+
+    margin-top: 50px; /* Space above the element */
+   
+    margin-bottom: 20px; /* Space below the element */
+
+     }
+
+
+  /* LINKS */
+a.nav-link:link
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #ffffff;
+   text-decoration: none;
+}
